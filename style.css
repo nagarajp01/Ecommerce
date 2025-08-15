@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Manufacturing+Consent&family=Michroma&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/*==1.navbar styles==*/
+.navbar{
+    width:100%;
+    height:10vh;
+    background-color: #006B8F;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.heading h2{
+    margin-left: 10%;
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 120%;
+    height: 80%;
+    
+}
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    gap: 1rem;
+    list-style: none;
+}
+.navbar ul li:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.911);
+}
+
+.searchbox{
+    display: flex;
+    gap: 1px;
+    flex-wrap: wrap;
+}
+.searchbox input{
+    height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid white;
+
+}
+.searchbox button{
+    height: 50px;
+    width: 50px;
+    border:1px solid white;
+    border-radius: 5px;
+}
+
+
+/*==2.banner styles==*/
+.banner-section {
+    height: 40%;
+    width: 100%;
+    margin-bottom:1%;
+}
+.banner-section img{
+    width: 100%;
+    height: 100%;
+}
+.banner2{
+    height: 100%;
+    width:98%;
+    margin-top: 1%;
+}
+.banner2 img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+}
+/*==categories styles==*/
+.categories-section{
+    height: 100%;
+    width: 100%;
+    margin-bottom:2%;
+}
+
+.categories-section ul {
+    display: flex;
+    gap: 5px;
+    list-style: none;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.cat1,.cat2,.cat3,.cat4,.cat5,.cat6,.cat7,.cat8,.cat9,.cat10{
+    height: 19vh;
+}
+.categories-section ul li {
+    border: 3px double orangered;
+}
+
+.categories-section span{
+    display: flex;
+    justify-content: center;
+}
+.categories-section li :hover{
+    transform: scale(0.9);
+}
+.categories-heading {
+    margin-bottom: 1%;
+}
+
+/*==arrivals or subsection */
+.arrivals-section{
+    height: 100%;
+    width: 100%;
+}
+.arrivals-section  ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.oneplus,.lenovo,.smartwatch,.buds,.headphone,.mivi,.washing,.tv,.bike,.tab{
+    height: 35vh;
+    padding: 5%;
+}
+.arrivals-section li {
+    margin-bottom: 2%;
+}
+.arrivals-section li :hover {
+    transform: scale(1.1);
+}
+.sub-section span {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-weight: bold;
+}
+.arrivals-section a{
+    text-decoration: dashed;
+    color: black;
+}
+.arrivals-section a:hover{
+    color: red;
+}
+/*==discount section*/
+.discount-section {
+    height: 100%;
+    width: 100%;
+}
+.discount-section li {
+    display: flex;
+    row-gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.disc-1,.disc-2,.disc-3,.disc-4,.disc-5,.disc-6,.disc-7,.disc-8,.disc-9,.disc-10 {
+    height: 19%;
+    width: 19%;
+    
+}
+/* product styles==*/
+.product-details{
+    display: flex;
+    flex-wrap: wrap;
+    height: 600px;
+}
+.proleft{
+    width: 100%;
+    border:1px solid black;
+    max-width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proleft img {
+    height: fit-content;
+    
+}
+.proright{
+    width: 100%;
+    border:1px solid black;
+    max-width: 50%;
+}
+.proright h3{
+    padding: 20px;
+}
+.product-details ul li {
+    list-style: none;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.probuttons {
+    width: 100%;
+}
+.addbtn,.buybtn {
+    width: 10rem;
+    height: 3rem;
+    margin: 10px;
+}
+.addbtn {
+    background-color: orangered;
+}
+.buybtn {
+    background-color: orange;
+}
+/*==footer-section*/
+.footer {
+    height:100%;
+    margin-left: 0.5%;
+    margin-right: 0.5%; 
+    width: 99%;
+    background-color: #025672ec;
+    color: white;
+}
+.footer h1 {
+    text-align: center;
+    background-color: #006B8F;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:sans-serif;
+}
+.footercontents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:1rem;
+}
+.footercontents li {
+    list-style: none;
+    margin: 1rem;
+    margin-left: 0;
+    color: rgba(244, 240, 240, 0.845);
+}
+.aboutcontainer {
+    margin-left: 10%;
+    margin-right: 10%;
+    height:100%;
+    text-align: justify;
+    background-color: rgba(250, 235, 215, 0.886);
+}
+.aboutus ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+    gap: 1rem;
+    padding: 3rem;
+    padding-top: 0;
+}
+.aboutus ul li h2 {
+    color: #006B8F;
+}
+.aboutecom {
+    text-decoration: dashed;
+}
+.footercontents ul :hover{
+    text-decoration: underline;
+}
+.blackboat img{
+  display: none;
+}
+.sambanner img{
+ display: none;
+}
+/*MEDIA QUERIES (RESONSIVENESS)*/
+/*MOBILES*/
+@media screen and (max-width:868px) {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    width:100%;
+    height:25vh;
+    background-color: #006B8F;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: left;
+    position: relative;
+ 
+}
+.heading h2{
+    font-family: "Bungee", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 12rem;  
+}
+.emoji{
+    display: none;
+}
+.searchbox input{
+    width: 100vw;
+    max-width: 75%;
+    border-radius: 5px;
+    border: 1px solid white;
+    margin-left: 5px;
+}
+.searchbox button{
+    height: 50px;
+    width: 50px;
+    border:1px solid white;
+    border-radius: 5px;
+}
+.options ul {
+    margin-left: 20px;
+    font-size: large;
+}
+.profile{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: small;
+}
+.banner-section {
+    height: fit-content;
+    width: 100%;
+}
+.blackboat{
+    height: 28vh;
+    width:fit-content;
+}
+.arrivals-section{
+    height: 100%;
+    width: 100%;
+}
+.oneplus,.lenovo,.smartwatch,.buds,.headphone,.mivi,.washing,.tv,.bike,.tab{
+    height: 16vh;
+    
+}
+.arrivals-section a{
+    text-decoration: dashed;
+    color: black;
+    font-size: small;
+}
+.disc-1,.disc-2,.disc-3,.disc-4,.disc-5,.disc-6,.disc-7,.disc-8,.disc-9,.disc-10 {
+    height:fit-content;
+    width: 30%;
+    border: 1px solid black;
+}
+.sambanner{
+    height: 26vh;
+   width: 280px;
+   margin-bottom: 5px;
+}
+.s24{
+    width: 100%;
+    height: 100%;
+}
+.footer {
+    height:100%;
+    width: 99%;
+    background-color: #025672ec;
+    color: white;
+}
+.footercontents{
+    flex-wrap:wrap;
+    flex-direction: column;
+    
+}
+.footercontents ul{
+   display: grid;
+   grid-auto-flow: column;
+   font-size: small;
+}
+.global,.merchant,.fullfill{
+    display: none;
+}
+.footercontents h3{
+    font-size: 1rem;
+}
+.footer h1{
+    font-size: large;
+}
+.blackboat img{
+  display: block;
+}
+.sambanner img{
+ display: block;
+}
+/*product styles*/
+ .product-details{
+    width: 100%;
+    height: 100%;
+    
+}
+.proleft{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.proleft img {
+    height:50vh;
+}
+
+.proright{
+    width:100%;
+    max-width: 100%;
+    height: 100%;
+}
+.proright h3{
+  
+}
+.product-details ul li {
+    list-style: none;
+}
+.probuttons {
+    width: 100%;
+}
+.addbtn,.buybtn {
+    width: 95%;
+    height: 3rem;
+}
+.addbtn {
+    background-color: orangered;
+}
+.buybtn {
+    background-color: orange;
+}
+}
